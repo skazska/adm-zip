@@ -87,7 +87,9 @@ module.exports = function () {
         set inAttr (val) { _inattr = val },
 
         get attr () { return _attr },
-        set attr (val) { _attr = val },
+        set attr (val) {
+            _attr = val
+        },
 
         get offset () { return _offset },
         set offset (val) { _offset = val },
